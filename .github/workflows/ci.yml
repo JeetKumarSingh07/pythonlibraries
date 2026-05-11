@@ -27,7 +27,7 @@ jobs:
           import json
           from pathlib import Path
 
-          notebooks = [Path('array.ipynb'), Path('basic.ipynb')]
+          notebooks = [Path('numpy/array.ipynb'), Path('numpy/basic.ipynb')]
           for notebook in notebooks:
               with notebook.open('r', encoding='utf-8') as handle:
                   data = json.load(handle)
